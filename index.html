@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<title>H.V.Desai college, pune</title>
+	
 	<style>
 	*{
 		margin:0;
@@ -9,26 +10,34 @@
 	}
 	header{
 		height: 120px ;
-		background:#aaaaaa;
+		background: linear-gradient(to left, #00002d , #004a8c ) ;
 	}
 	.nameAndLogo{
 		text-align:center;
-		background:#bbbbbb;
+		color:white;
+		height:85px;
 	}
 	.name{
 		display:inline-block;
 	}
 	.mainNav {
-	    background:;
 		text-align:center;
+		height:35px;
+		border-top:1px solid white;
 	}
-	
-	.mainNav a {
-		color: #000000;
+	.navLink {
+		color: white;
+		background:none;
 		text-align: center;
-		padding: 14px 16px;
 		text-decoration: none;
-		font-size: 17px;
+		height:35px;
+		width:90px;
+		border:none;
+		border-right:2px solid #cccccc;
+	}
+	.activeNavLink{
+		background:white;
+		color:navy;
 	}
 	</style>
 </head>
@@ -37,18 +46,18 @@
 		<div class=" nameAndLogo" >
 			<img src=" LOGO_DESAI.png" height="60px">
 			<div class="name">
-				<p class="l1">The Poona Gujarati Kelwani Mandal's</p>
+				<p class="l1"><h5>The Poona Gujarati Kelwani Mandal's</h5></p>
 				<p class="l2"><h1>Haribhai V. Desai college, Pune</h1></p>
-				<p class="l3">Affiliated with Savitribai Phule Pune University</p>
+				<p class="l3"><h6>Affiliated with Savitribai Phule Pune University</h6></p>
 			</div>
     	</div>
     	
 		<nav class="mainNav">
-			<a class="Active" href="#home">Home</a>
-			<a href="#faculties">Faculties</a>
-			<a href="#IQAC">IQAC</a>
-			<a href="#admission">Admission</a>
-			<a href="#contact">Contact Us</a>
+			<button class="navLink activeNavLink" >Home</button><!--
+			--><button class="navLink">Faculties</button><!--
+			--><button class="navLink">IQAC</button><!--
+			--><button class="navLink">Admission</button><!--
+			--><button class="navLink" style="border-right:none;">Contact Us</button>
 		</nav>
 	</header>
 	
