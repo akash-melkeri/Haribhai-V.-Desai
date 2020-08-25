@@ -2,19 +2,38 @@
 <html lang="en">
 <head>
 	<title>H.V.Desai college, pune</title>
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 	*{
 		margin:0;
 		font-family:arial;
 	}
 	header{
-		height: 120px ;
-		background: linear-gradient(to left, #00002d , #004a8c ) ;
+		height: 135px ;
+		background: #00002d ;
+		box-shadow:0 1px 5px grey;
+	}
+	.contact{
+		background: #f7ef18 ;
+		color:black;
+		text-align:center;
+	}
+	.contact span{
+		padding:0 25px;
+		color:#f7ef18;
+		background:#333333;
+	}
+	.contact a,.socialMediaLinks{
+		padding:0 10px;
+		color:#f7ef18;
+		background: #333333 ;
+	}
+	.contact .login{
+		margin-left:10px;
 	}
 	.nameAndLogo{
 		text-align:center;
-		color:white;
+		color:#eeeeff;
 		height:85px;
 	}
 	.name{
@@ -23,26 +42,35 @@
 	.mainNav {
 		text-align:center;
 		height:35px;
-		border-top:1px solid white;
 	}
 	.navLink {
-		color: white;
+		color: white ;
 		background:none;
 		text-align: center;
 		text-decoration: none;
 		height:35px;
 		width:90px;
 		border:none;
-		border-right:2px solid #cccccc;
+		outline:none;
 	}
 	.activeNavLink{
 		background:white;
 		color:navy;
+		border-bottom:8px solid white;
 	}
 	</style>
 </head>
 <body>
 	<header>
+		<div class="contact">
+			<span><i class="fa fa-phone" aria-hidden="true"></i> : 020-24450373</span>
+			<span><i class="fa fa-envelope" ></i> : admin@hvdesaicollege.org</span>
+			<a href="#"class="socialLediaLinks" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="#"class="socialLediaLinks" ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#"class="socialLediaLinks" ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="#"class="socialLediaLinks" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<span class="login">Login / Register</span>
+		</div>
 		<div class=" nameAndLogo" >
 			<img src=" LOGO_DESAI.png" height="60px">
 			<div class="name">
