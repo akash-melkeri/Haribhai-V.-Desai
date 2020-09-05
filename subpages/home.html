@@ -1,0 +1,49 @@
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+	.bodybg{
+		position:fixed;
+		top:0;
+		z-index:-1;
+	}
+	.bodybg .bg{
+		height:700px;
+		width:100vw;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+	 	filter:brightness(40%);
+	}
+	.bg0{
+		background:url('../asset/img/bg/bg0.jpg');
+	}
+	.bg1{
+		background:url('../asset/img/bg/bg1.jpg');
+	}
+	.bg2{
+		background:url('../asset/img/bg/bg2.jpg');
+	}
+	.bg3{
+		background:url('../asset/img/bg/bg0.jpg');
+	}
+	@media screen and (max-width:600px){
+		.bodybg{
+		
+		}
+		.bodybg .bg{
+			height:90vh;
+			width:100vw;
+		}
+	}
+</style>
+<div class="bodybg">
+	<div class="bg bg0"></div>
+	<div class="bg bg1"></div>
+	<div class="bg bg2"></div>
+	<div class="bg bg3"></div>
+</div>
+<div>
+	content
+</div>
