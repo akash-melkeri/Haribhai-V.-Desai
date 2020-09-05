@@ -1,0 +1,76 @@
+.container{
+	position:relative;
+	top:0;
+	text-align:center;
+	color:white;
+	background:rgba(0,43,112,0.4)
+}
+.container:before{
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	height:100%;
+	width:100%;
+	filter:brightness(40%);
+	background:url(../img/bg/bg0.jpg);
+	background-size:cover;
+	background-position:center;
+	
+}
+.slideBtn{
+	position:absolute;
+	top:50%;
+	margin-top:-1.05em;
+	font-size:1.7em;
+	padding:0.2em;
+	border:none;
+	background:rgba(200,200,200,0.8);
+	outline:none;
+}
+.container .prev{
+	left:0;
+	border-radius:0 0.4em 0.4em 0;
+}
+.container .next{
+	right:0;
+	border-radius:0.4em 0 0 0.4em;
+}
+.slide{
+	
+}
+.welcome{
+	font-size:1.2em;
+	font-family: 'Comfortaa', cursive;
+	padding:1.8em 0;/*1.8em*/
+}
+.container .name .l1{
+	font-family: 'Comfortaa', cursive;
+	padding:0.7em;
+	color:#dddddd;
+}
+.container .name .l2{
+	font-size:2.8em;
+	font-family: 'Lexend Peta', sans-serif;
+	background:white;
+	color:black;
+	display:inline-block;
+	padding:0.2em;
+	margin:0.5em;
+}
+.container .name .l3{
+	font-family: 'Comfortaa', cursive;
+	padding:0.7em;
+	color:#dddddd;
+}
+.divBtn button{
+	margin:2.7em 1.7em;
+	font-size:1.2em;
+	padding:0.4em;
+	font-family:'Play', sans-serif;
+	background:#0aadff;
+	border:none;
+	border-radius:0.2em;
+	color:white;
+}
